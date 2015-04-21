@@ -15,6 +15,9 @@
 #mobile img {
   width: 100%;
 }
+#parallax main .prop #IEwarning.text {
+  display:none;
+}
 #parallax {
   opacity: 0;
   width: 100%;

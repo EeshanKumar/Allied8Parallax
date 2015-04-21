@@ -160,15 +160,24 @@ function scrolling() {
             speedRatioX: .4
         }]
     });
-    //Setup Stellar.js
-    $('main').stellar({
-        scrollProperty: 'transform',
-        positionProperty: 'transform',
-        horizontalScrolling: true,
-        verticalScrolling: false,
-        responsive: false,
-        hideDistantElements: false
-    });
+
+    //Only setup stellar if not using IE    
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+        $('#IEwarning').show();
+    } else {
+        //Setup Stellar.js
+        $('main').stellar({
+            scrollProperty: 'transform',
+            positionProperty: 'transform',
+            horizontalScrolling: true,
+            verticalScrolling: false,
+            responsive: false,
+            hideDistantElements: false
+        });
+    }
 }
 
 //Wrapper for position functions

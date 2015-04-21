@@ -25,6 +25,9 @@ Template Name: Parallax
                 <div class="prop pic" data-xpos="219" data-ypos="500" data-width="593" data-height="18" data-stellar-ratio="1.5">
                     <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/0_Welcome/ResourcesDirections.png" />
                 </div>
+               <div class="prop" data-xpos="185" data-ypos="208" data-width="1000" data-height="14" data-stellar-ratio="1">
+                    <div id="IEwarning" class="text subtitle"><h4 class="leftJustify">For best performance, please use a non IE browser</h4></div>
+                </div>
         </section><!-- #slide0 -->
 
         <!-- 1_Interview -->
