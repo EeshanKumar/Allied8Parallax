@@ -1,0 +1,99 @@
+/*
+Theme Name: Verge
+Theme URI: 
+Description: WordPress theme designed by Leah Martin for verge architecture
+Author: Leah Martin (Designer), Eeshan Kumar (Developer)
+Author URI: http://www.eeshankumar.com, http://www.vergead.com;
+Version: 0.1
+*/
+
+/* See /style.less for all main CSS */
+
+/* General Page CSS */
+
+/* Colors */
+.orange {
+	color: #F7BB2D;
+}
+.gray {
+	color: #2D2E30;
+}
+.black {
+	color: #000000;
+}
+.white {
+	color: #ffffff;
+}
+
+/* Locations */
+.top {
+	position: absolute;
+	top: 20px;
+}
+.bottom {
+	position: absolute;
+	bottom: 123px;
+}
+.left {
+	position: absolute;
+	left: 20px;
+	text-align: left;
+}
+.right {
+	position: absolute;
+	right: 60px;
+	text-align: right;
+}
+
+.entry-content div, .entry-content span, .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content p 
+{ padding: 0; margin: 0;}
+
+/* Sizes */
+.font10 {
+	font-size: 10px;
+}
+.font12 {
+	font-size: 12px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font16 {
+	font-size: 16px;
+}
+.font18 {
+	font-size: 18px;
+}
+.font20 {
+	font-size: 20px;
+}
+.font22 {
+	font-size: 22px;
+}
+.font24 {
+	font-size: 24px;
+}
+.font26 {
+	font-size: 26px;
+}
+.font28 {
+	font-size: 28px;
+}
+.font30 {
+	font-size: 30px;
+}
+.font32 {
+	font-size: 32px;
+}
+.font34 {
+	font-size: 34px;
+}
+.font36 {
+	font-size: 36px;
+}
+.font38 {
+	font-size: 38px;
+}
+.font40 {
+	font-size: 40px;
+}

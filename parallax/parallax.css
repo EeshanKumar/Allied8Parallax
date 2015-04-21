@@ -1,0 +1,238 @@
+/*Converted from parallax.lss using this site: http://less2css.org/*/
+#loader {
+  position: absolute;
+  text-align: center;
+  top: 33%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
+}
+#mobile {
+  display: none;
+  width: 100%;
+}
+#mobile img {
+  width: 100%;
+}
+#parallax {
+  opacity: 0;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  font-family: arial;
+}
+#parallax #bgFull {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 200%;
+}
+#parallax #bgFull .bcg {
+  background-image: url(background.jpg);
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+#parallax main {
+  position: absolute;
+  height: 100%;
+  width: auto;
+}
+#parallax main section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+#parallax main .prop {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#parallax main .prop .text {
+  position: absolute;
+  top: 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+  white-space: normal;
+  font-family: sinkin;
+}
+#parallax main .prop .text h2,
+#parallax main .prop .text h4,
+#parallax main .prop .text h5,
+#parallax main .prop .text h6 {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#parallax main .prop .text h6 {
+  vertical-align: top;
+}
+#parallax main .prop .text .leftJustify {
+  text-align: left;
+}
+#parallax main .prop .text .rightJustify {
+  text-align: right;
+}
+#parallax main .prop .text ul {
+  padding: 0;
+}
+#parallax main .prop .text ul li {
+  margin: 0px 0;
+}
+#parallax main .prop .text.youUs {
+  font-family: sinkin_bold;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 0;
+}
+#parallax main .prop .text.subtitle {
+  font-size: 15px;
+  color: #565759;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 0;
+}
+#parallax main .prop .text.subtext {
+  font-size: 14px;
+  color: #565759;
+}
+#parallax main .prop .text.content {
+  font-size: 11px;
+  line-height: 17px;
+}
+#parallax main .prop.back {
+  z-index: -1;
+}
+#parallax main .background {
+  width: 100%;
+  height: 100%;
+}
+#parallax main .yellow {
+  color: #f8b230;
+}
+#parallax main .grey {
+  color: #565759;
+}
+#parallax main .white {
+  color: white;
+}
+#parallax main #slide2 .prop .content h4 {
+  box-sizing: border-box;
+  padding: 0 15%;
+}
+#parallax main #slide3 .prop .content h4 {
+  box-sizing: border-box;
+  padding: 0 15%;
+}
+#parallax main #slide4 .prop .content h4 {
+  box-sizing: border-box;
+  padding: 0 5%;
+}
+#parallax main #slide4 .prop .content.text {
+  font-size: 10px;
+}
+#parallax main #slide1 .prop a:hover {
+  color: white;
+}
+.hide {
+  display: none;
+}
+#map {
+  position: fixed;
+  left: 0;
+  bottom: 154px;
+  width: 100%;
+  height: 2px;
+  background: url('images/map/NavigationBarLine.png') repeat-x;
+  overflow: visible;
+}
+#map .circle {
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: white;
+  border-radius: 100%;
+  border: 2px solid gray;
+}
+#map .circle img {
+  position: absolute;
+  top: 30px;
+}
+#map .circle[data-slide="0"] {
+  left: 7%;
+}
+#map .circle[data-slide="0"] img {
+  left: -64%;
+}
+#map .circle[data-slide="1"] {
+  left: 21%;
+}
+#map .circle[data-slide="1"] img {
+  left: -73%;
+}
+#map .circle[data-slide="2"] {
+  left: 35%;
+}
+#map .circle[data-slide="2"] img {
+  left: -77%;
+}
+#map .circle[data-slide="3"] {
+  left: 49%;
+}
+#map .circle[data-slide="3"] img {
+  left: -167%;
+}
+#map .circle[data-slide="4"] {
+  left: 63%;
+}
+#map .circle[data-slide="4"] img {
+  left: -200%;
+}
+#map .circle[data-slide="5"] {
+  left: 77%;
+}
+#map .circle[data-slide="5"] img {
+  left: -269%;
+}
+#map .circle[data-slide="6"] {
+  left: 91%;
+}
+#map .circle[data-slide="6"] img {
+  left: -216%;
+}
+#map .circle.active {
+  background: url(images/alliedYellow.png);
+}
+/* #Media Queries
+================================================== */
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 980px) {
+  #mobile {
+    display: block;
+  }
+  #parallax,
+  #map,
+  #loader {
+    display: none;
+  }
+}
+/*** End Media Query ***/

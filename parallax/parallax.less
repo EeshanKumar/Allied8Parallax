@@ -1,0 +1,188 @@
+//Loading Screen CSS
+#loader {
+	position:absolute;
+	text-align:center;
+	top:33%;
+	left:0;
+	bottom:0;
+	right:0;
+	font-size:40px;
+}
+
+#mobile {
+	display:none;
+	width:100%;
+	img {width:100%;}
+}
+
+//Overall CSS
+#parallax {
+	opacity:0;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	white-space:nowrap;
+	position:relative;
+	top:0;
+	left:0;
+	bottom:0;
+	font-family:arial;
+
+	//Big Parallax Background CSS
+	#bgFull {
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:-1;
+		height:100%;
+		width:200%;
+		.bcg {
+			background-image: url(background.jpg);
+			background-repeat:repeat-x;
+			background-size:cover;
+			background-position:center;
+			height:100%;
+			width:100%
+		}
+	}
+
+	//Prop Area CSS
+	main {
+		position:absolute;
+		height:100%;
+		width:auto;
+		section {
+			position:absolute;
+			height:100%;
+			width:100%;
+			top:0;
+		}
+		//Prop Default CSS
+		.prop {
+			position:absolute;
+			top:0;
+			left:0;
+
+			//Text CSS with Vertical and Horizontal Centering
+			.text {
+				position:absolute;
+				top:0;
+				display:table;
+				height:100%;
+				width:100%;
+				white-space: normal;
+				font-family: sinkin;
+				h2, h4, h5, h6 {
+					display:table-cell;
+					vertical-align: middle;
+					margin:0;
+					padding:0;
+					text-align:center;
+				}
+				h6 {vertical-align:top;}
+				.leftJustify {text-align:left;}
+				.rightJustify {text-align:right;}
+				ul {
+					padding:0;
+					li {margin:0px 0;}
+				}
+			}
+			.text.youUs {
+				font-family: sinkin_bold;
+				font-size: 35px;
+				letter-spacing: 0;
+				line-height:0;
+			}
+			.text.subtitle {
+				font-size: 15px;
+				color: rgb(86,87,89); 
+				text-transform: uppercase;
+				letter-spacing: 4px;
+				line-height:0;
+			}
+			.text.subtext {
+				font-size: 14px; 
+				color: rgb(86,87,89); 
+			}
+			.text.content {
+				font-size: 11px;
+				line-height:17px;
+			}
+		}
+		.prop.back {z-index: -1;}
+
+		//Default circle and background Image CSS
+		.background {width:100%; height:100%;}
+
+		//Font Colors
+		.yellow {color:rgb(248,178,48);}
+		.grey {color:rgb(86,87,89);}
+		.white {color:white;}
+
+		//Slide specific styles
+		#slide2 .prop .content h4 {box-sizing: border-box; padding:0 15%;}
+		#slide3 .prop .content h4 {box-sizing: border-box; padding:0 15%;}
+		#slide4 .prop .content h4 {box-sizing: border-box; padding:0 5%;}
+    	#slide4 .prop .content.text {font-size:10px;}
+
+		//Slide specific hovers (Also see parallax.js)
+		#slide1 .prop a:hover {color:white;}
+	}
+}
+
+//Circle Overlays that are hidden
+.hide {display:none;}
+
+//Map in corner by logo
+#map {
+	position:fixed;
+	left: 0;
+	bottom:154px; //!Also change headerHeight in parallax.js
+				  // 30 pixels above header height of 124px
+	width: 100%;
+	height: 2px;
+	background: url('images/map/NavigationBarLine.png') repeat-x;
+	overflow:visible;
+	.circle {
+		display:block;
+		position:absolute;
+		width:20px;
+		height:20px;
+		top:-10px;
+		float:left;
+		margin:0;
+		padding:0;
+		background:white;
+		border-radius:100%;
+		border:2px solid gray;
+		img {
+			position:absolute;
+			top:30px;
+		}
+	}
+	.circle[data-slide="0"] {left:7%}
+	.circle[data-slide="0"] img {left:-64%}
+	.circle[data-slide="1"] {left:21%;}
+	.circle[data-slide="1"] img {left:-73%;}
+	.circle[data-slide="2"] {left:35%;}
+	.circle[data-slide="2"] img {left:-77%;}
+	.circle[data-slide="3"] {left:49%;}
+	.circle[data-slide="3"] img {left:-167%;}
+	.circle[data-slide="4"] {left:63%;}
+	.circle[data-slide="4"] img {left:-200%;}
+	.circle[data-slide="5"] {left:77%;}
+	.circle[data-slide="5"] img {left:-269%;}
+	.circle[data-slide="6"] {left:91%;}
+	.circle[data-slide="6"] img {left:-216%;}
+	.circle.active {background: url(images/alliedYellow.png);}
+}
+
+
+/* #Media Queries
+================================================== */
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 980px) {
+	#mobile {display:block;}
+	#parallax, #map, #loader {display:none;}
+} /*** End Media Query ***/
