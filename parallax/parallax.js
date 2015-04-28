@@ -2,7 +2,7 @@
 var headerHeight = 154;
 var slideFullWidth = 1024;
 var slideFullHeight = 640;
-var totalSlideNumber = 7;
+var totalSlideNumber = 8;
 var ratio,initialLoadDone,myScroll,bufferLeft=0;
 var parallaxWidth,activeSlide=0;
 

@@ -25,8 +25,10 @@ Template Name: Parallax
                 <div class="prop pic" data-xpos="219" data-ypos="500" data-width="593" data-height="18" data-stellar-ratio="1.5">
                     <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/0_Welcome/ResourcesDirections.png" />
                 </div>
-               <div class="prop" data-xpos="185" data-ypos="208" data-width="1000" data-height="14" data-stellar-ratio="1">
-                    <div id="IEwarning" class="text subtitle"><h4 class="leftJustify">For best performance, please use a non IE browser</h4></div>
+               <div class="prop" data-xpos="210" data-ypos="200" data-width="1000" data-height="14" data-stellar-ratio="1">
+                    <div id="IEwarning" class="text subtitle"><h4 class="leftJustify">
+                        For best performance, please use <a href="https://support.google.com/chrome/answer/95346?hl=en" target="_blank" >google chrome</a>
+                    </h4></div>
                 </div>
         </section><!-- #slide0 -->
 
@@ -227,7 +229,7 @@ Template Name: Parallax
                 <div class="prop" data-xpos="30" data-ypos="390" data-width="380" data-height="95" data-stellar-ratio="2">
                     <div class="text subtext"><h4 class="leftJustify">Integrated and interdisciplinary thinking and strategies - establish project size, shape, orientation and budget. Keep in mind that design is more iterative than linear.</h4></div>
                 </div>
-                <div class="prop pic" data-xpos="550" data-ypos="240" data-width="533" data-height="285" data-stellar-ratio="1.5">
+                <div class="prop pic" data-xpos="522" data-ypos="23" data-width="526" data-height="349" data-stellar-ratio="1.5">
                     <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/3_SchematicDesign/UpperRightBuildingOutline.png" />
                 </div>
 
@@ -480,8 +482,8 @@ Template Name: Parallax
                <div class="prop" data-xpos="467" data-ypos="370" data-width="510" data-height="18" data-stellar-ratio="1">
                     <div class="text subtitle"><h4 class="rightJustify">coordinate and fit it all together</h4></div>
                 </div>                    
-                <div class="prop pic" data-xpos="6" data-ypos="394" data-width="474" data-height="246" data-stellar-ratio="2">
-                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/4_DesignDevelopment/BuildingImage.png" />
+                <div class="prop pic back" data-xpos="6" data-ypos="394" data-width="474" data-height="246" data-stellar-ratio="2">
+                    <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/4_DesignDevelopment/BuildingImage.png" />
                 </div>
         </section><!-- #slide4 -->
 
@@ -494,7 +496,7 @@ Template Name: Parallax
                <div class="prop" data-xpos="646" data-ypos="320" data-width="340" data-height="27" data-stellar-ratio="1">
                     <div class="text subtitle"><h4 class="rightJustify">zoom in on the details</h4></div>
                 </div>
-                <div class="prop pic" data-xpos="349" data-ypos="200" data-width="679" data-height="340" data-stellar-ratio="2">
+                <div class="prop pic back" data-xpos="349" data-ypos="200" data-width="679" data-height="340" data-stellar-ratio="2">
                     <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/5_ConstructionDocuments/OrangeChurchDrawing_FurthestImageBack.png" />
                 </div>
             
@@ -579,6 +581,17 @@ Template Name: Parallax
 
         <!-- 6_Construction -->
         <section id="slide6" data-slidenum="6">
+            <!-- Pictures and Title Assets -->
+                <div class="prop pic" data-xpos="55" data-ypos="285" data-width="867" data-height="46" data-stellar-ratio="1">
+                    <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/6_Construction/TITLE_Construction.png" />
+                </div>
+               <div class="prop" data-xpos="680" data-ypos="338" data-width="250" data-height="22" data-stellar-ratio="2">
+                    <div class="text subtitle"><h4 class="rightJustify">making it real</h4></div>
+                </div>
+                <div class="prop pic" data-xpos="45" data-ypos="265" data-width="424" data-height="374" data-stellar-ratio="2.25">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/6_Construction/CAMeeting.png" />
+                </div>
+
             <!-- YOU Section -->
                 <div class="prop" data-xpos="420" data-ypos="39" data-width="520" data-height="30" data-stellar-ratio="1.75">
                     <div class="text youUs yellow"><h4 class="leftJustify">YOU</h4></div>
@@ -654,15 +667,71 @@ Template Name: Parallax
                 <div class="prop pic" data-xpos="250" data-ypos="589" data-width="692" data-height="1" data-stellar-ratio="2.5">
                     <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/6_Construction/12_US_BlueLine.png" />
                 </div>
-
-            <!-- Pictures and Title Assets -->
-                <div class="prop pic" data-xpos="55" data-ypos="285" data-width="867" data-height="46" data-stellar-ratio="1">
-                    <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/6_Construction/TITLE_Construction.png" />
-                </div>
-               <div class="prop" data-xpos="680" data-ypos="338" data-width="250" data-height="22" data-stellar-ratio="2">
-                    <div class="text subtitle"><h4 class="rightJustify">making it real</h4></div>
-                </div>
         </section><!-- #slide6 -->
+
+
+        <!-- 7_Occupy -->
+        <section id="slide7" data-slidenum="7">
+
+            <!-- Title Assets -->
+                <div class="prop pic" data-xpos="735" data-ypos="230" data-width="227" data-height="57" data-stellar-ratio="1">
+                    <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/Occupy.png" />
+                </div>
+               <div class="prop" data-xpos="800" data-ypos="290" data-width="160" data-height="22" data-stellar-ratio="2">
+                    <div class="text subtitle"><h4 class="rightJustify">MOVE IN!!</h4></div>
+                </div>
+
+            <!-- YOU Section -->
+                <div class="prop pic" data-xpos="212" data-ypos="61" data-width="211" data-height="211" data-stellar-ratio="4.75">
+                    <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/YouCircle.png" />
+                </div>
+                <div class="prop" data-xpos="212" data-ypos="118" data-width="211" data-height="50" data-stellar-ratio="4.75">
+                    <div class="text youUs yellow"><h4>YOU</h4></div>
+                </div>
+                <div class="prop" data-xpos="212" data-ypos="158" data-width="211" data-height="40" data-stellar-ratio="4.75">
+                    <div class="text content grey"><h4>Celebrate and enjoy your new space!</h4></div>
+                </div>
+
+            <!-- US Section -->
+                <div class="prop pic" data-xpos="444" data-ypos="29" data-width="250" data-height="250" data-stellar-ratio="3.75">
+                    <img class="background" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/UsCircle.png" />
+                </div>
+                <div class="prop" data-xpos="444" data-ypos="108" data-width="250" data-height="50" data-stellar-ratio="3.75">
+                    <div class="text youUs yellow"><h4>US</h4></div>
+                </div>
+                <div class="prop" data-xpos="444" data-ypos="150" data-width="250" data-height="40" data-stellar-ratio="3.75">
+                    <div class="text content grey"><h4>Celebrate and photograph the finished project!</h4></div>
+                </div>
+
+            <!-- Pictures -->
+                <div class="prop pic" data-xpos="10" data-ypos="300" data-width="825" data-height="340" data-stellar-ratio="2.5">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/Church.png" />
+                </div>
+                <div class="prop pic" data-xpos="560" data-ypos="400" data-width="487" data-height="241" data-stellar-ratio="2.5">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/House.png" />
+                </div>
+                <div class="prop pic" data-xpos="5" data-ypos="495" data-width="167" data-height="144" data-stellar-ratio="5">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/HorseGirl.png" />
+                </div>
+                <div class="prop pic" data-xpos="173" data-ypos="518" data-width="214" data-height="117" data-stellar-ratio="2.5">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/MovingMen.png" />
+                </div>
+                <div class="prop pic" data-xpos="372" data-ypos="540" data-width="99" data-height="100" data-stellar-ratio="3">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/GuitarMan.png" />
+                </div>
+                <div class="prop pic" data-xpos="506" data-ypos="507" data-width="57" data-height="74" data-stellar-ratio="4">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/skaterboy.png" />
+                </div>
+                <div class="prop pic" data-xpos="678" data-ypos="534" data-width="69" data-height="106" data-stellar-ratio="1">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/GrillingGary.png" />
+                </div>
+                <div class="prop pic" data-xpos="840" data-ypos="522" data-width="98" data-height="119" data-stellar-ratio="2.5">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/DogMover.png" />
+                </div>
+                <div class="prop pic" data-xpos="808" data-ypos="355" data-width="61" data-height="80" data-stellar-ratio="2.5">
+                    <img class="background back" src="<?php bloginfo('template_directory'); ?>/parallax/images/7_OCCUPY/LegUpGirl.png" />
+                </div>
+        </section><!-- #slide7 -->
     </main>    
 
     <div id="bgFull">
@@ -680,6 +749,7 @@ Template Name: Parallax
     <div class="circle" data-slide="4"><img class="text" src="<?php bloginfo('template_directory'); ?>/parallax/images/map/NavigationBarDESIGNDEVELOPMENTtext.png"/></div>
     <div class="circle" data-slide="5"><img class="text" src="<?php bloginfo('template_directory'); ?>/parallax/images/map/NavigationBarCONSTRUCTIONDOCUMENTStext.png"/></div>
     <div class="circle" data-slide="6"><img class="text" src="<?php bloginfo('template_directory'); ?>/parallax/images/map/NavigationBarCONSTRUCTIONtext.png"/></div>
+    <div class="circle" data-slide="7"><img class="text" src="<?php bloginfo('template_directory'); ?>/parallax/images/map/NavigationBarCONSTRUCTIONtext.png"/></div>
 </div>
 
 <!-- Scrolling Script -->
